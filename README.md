@@ -22,7 +22,8 @@ O projeto ecoleta foi desenvolvido na Next Level Week da Rocketseat, a aplicacao
 - [Typescript](https://www.typescriptlang.org/)
 - [Expo](https://expo.io/)
 - [Knex](http://knexjs.org/)
-uma lista completa das dependencias do projeto podera ser encontrada nos ficheiros package.json de cada um dos projetos, web, server e mobile. Esse mesmo ficheiro servira para a instalacao de cada aplicacao seguindo os passo na <a href="#-Instalacao">Instalacao<a/>. 
+
+Uma lista completa das dependencias do projeto podera ser encontrada nos ficheiros package.json de cada um dos projetos, web, server e mobile. Esse mesmo ficheiro servira para a instalacao de cada aplicacao seguindo os passo na <a href="#-Instalacao">Instalacao<a/>. 
 
 --- 
 
