@@ -3,7 +3,7 @@
   <img alt="Ecoleta_home" src=".github/ecoleta.png" />
 </h1>
 
----
+
 
 <p align="center">
 <img alt="Github language Count" src="https://img.shields.io/github/languages/count/an-2018/ecoleta_nlw1" />
