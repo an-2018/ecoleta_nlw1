@@ -1,6 +1,6 @@
 
 <h1 align="center">
-  <img alt="Ecoleta_home" src=".github/ecoleta.png" width="250px"/>
+  <img alt="Ecoleta_home" src=".github/ecoleta.png" />
 </h1>
 
 ---
