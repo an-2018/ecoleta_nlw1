@@ -6,7 +6,7 @@
 ---
 
 <p align="center">
-<img alt="Github language Count" src="https://img.shields.io/github/languages/count/badges/shields.svg" />
+<img alt="Github language Count" src="https://img.shields.io/github/languages/count/an-2018/ecoleta_nlw1" />
 </p>
 
 # ecoleta_nlw1
