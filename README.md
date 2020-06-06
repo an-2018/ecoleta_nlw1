@@ -1,13 +1,13 @@
---- 
+
 <h1 align="center">
   <img alt="Ecoleta_home" src=".github/ecoleta.png" width="250px">
-<h1/>
+</h1>
 
 ---
 
 <p align="center">
-<img alt="Github language Count" src="https://img.shields.io/github/languages/count/badges/shields.svg" 
-<p/>
+<img alt="Github language Count" src="https://img.shields.io/github/languages/count/badges/shields.svg" />
+</p>
 
 # ecoleta_nlw1
 O projeto ecoleta foi desenvolvido na Next Level Week da Rocketseat, a aplicacao demonstra a utilizacao da stack node no backend, reactjs no frontend web e react native no mobile.
