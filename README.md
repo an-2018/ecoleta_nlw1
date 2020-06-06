@@ -6,7 +6,7 @@
 ---
 
 <p align="center">
-<img alt="Github language Count" src="https://img.shields.io/github/languages/count/badges/shields.svg" />
+<img alt="Github language Count" src="https://img.shields.io/github/languages/count/an-2018/ecoleta_nlw1" />
 </p>
 
 # ecoleta_nlw1
@@ -22,7 +22,8 @@ O projeto ecoleta foi desenvolvido na Next Level Week da Rocketseat, a aplicacao
 - [Typescript](https://www.typescriptlang.org/)
 - [Expo](https://expo.io/)
 - [Knex](http://knexjs.org/)
-uma lista completa das dependencias do projeto podera ser encontrada nos ficheiros package.json de cada um dos projetos, web, server e mobile. Esse mesmo ficheiro servira para a instalacao de cada aplicacao seguindo os passo na <a href="#-Instalacao">Instalacao<a/>. 
+
+Uma lista completa das dependencias do projeto podera ser encontrada nos ficheiros package.json de cada um dos projetos, web, server e mobile. Esse mesmo ficheiro servira para a instalacao de cada aplicacao seguindo os passo na <a href="#instalacao">Instalacao<a/>. 
 
 --- 
 
@@ -30,11 +31,23 @@ uma lista completa das dependencias do projeto podera ser encontrada nos ficheir
 
 Para executar os projetos segue-se os seguintes passos
 ```bash
-// Na pasta server
+$ git clone https://github.com/an-2018/ecoleta_nlw1.git
+# entrar em cada pasta server | mobile | web e intalar as dependencias
 
-// Na pasta web
+$ npm install
 
-// Na pasta mobile
+# Na pasta server executar os comandos a seguir para criar as tabelas necessarias da base de dados
+$ npm run knex:migrate
+$ yarn knex:seed
+
+# Executar o codigo do sservidor
+$ npm run dev
+
+# Na pasta web executar o comando para iniciar a app web:
+$ npm run start
+
+# E para testar a app mobile executar:
+$ expo start
 ```
 
 Adicionalmente sera necessario alterar as configuracoes do endereco do servidor, que ate entao utiliza um endereco estatico, futuramente sera implementada a automacao desta funcionalidade.
