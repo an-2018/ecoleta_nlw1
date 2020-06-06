@@ -40,5 +40,12 @@ Para executar os projetos segue-se os seguintes passos
 Adicionalmente sera necessario alterar as configuracoes do endereco do servidor, que ate entao utiliza um endereco estatico, futuramente sera implementada a automacao desta funcionalidade.
 Para implementar as alteracoes, basta mudar a url nos seguintes ficheiros
 ```js
+    // mobile\src\services\api.ts
     baseURL: 'http://192.168.88.13:3333',
+    
+    // server\src\controllers\ItemsControllers.ts
+    image_url: `http://192.168.88.13:3333/uploads/${item.image}`
+    
+    // server\src\controllers\PointsControllers.ts
+    image_url: `http://192.168.88.13:3333/uploads/${point.image}` 
 ```
